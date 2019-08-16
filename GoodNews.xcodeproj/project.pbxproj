@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC9057B323067C26005D876A /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9057B223067C26005D876A /* WebService.swift */; };
 		FCB726B8230660EE00054456 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB726B7230660EE00054456 /* AppDelegate.swift */; };
 		FCB726BD230660EE00054456 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB726BB230660EE00054456 /* Main.storyboard */; };
 		FCB726BF230660EF00054456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB726BE230660EF00054456 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC9057B223067C26005D876A /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		FCB726B4230660EE00054456 /* GoodNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCB726B7230660EE00054456 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCB726BC230660EE00054456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC9057B123067C12005D876A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FC9057B223067C26005D876A /* WebService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		FCB726AB230660EE00054456 = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				FCB726CA2306622700054456 /* Controllers */,
+				FC9057B123067C12005D876A /* Services */,
 				FCB726B7230660EE00054456 /* AppDelegate.swift */,
 				FCB726BB230660EE00054456 /* Main.storyboard */,
 				FCB726BE230660EF00054456 /* Assets.xcassets */,
@@ -143,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC9057B323067C26005D876A /* WebService.swift in Sources */,
 				FCB726CC2306626000054456 /* NewsListTableViewController.swift in Sources */,
 				FCB726B8230660EE00054456 /* AppDelegate.swift in Sources */,
 			);
