@@ -11,6 +11,7 @@
 		FCB726BD230660EE00054456 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB726BB230660EE00054456 /* Main.storyboard */; };
 		FCB726BF230660EF00054456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB726BE230660EF00054456 /* Assets.xcassets */; };
 		FCB726C2230660EF00054456 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB726C0230660EF00054456 /* LaunchScreen.storyboard */; };
+		FCB726CC2306626000054456 /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB726CB2306626000054456 /* NewsListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		FCB726BE230660EF00054456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCB726C1230660EF00054456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCB726C3230660EF00054456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCB726CB2306626000054456 /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		FCB726B6230660EE00054456 /* GoodNews */ = {
 			isa = PBXGroup;
 			children = (
+				FCB726CA2306622700054456 /* Controllers */,
 				FCB726B7230660EE00054456 /* AppDelegate.swift */,
 				FCB726BB230660EE00054456 /* Main.storyboard */,
 				FCB726BE230660EF00054456 /* Assets.xcassets */,
@@ -59,6 +62,14 @@
 				FCB726C3230660EF00054456 /* Info.plist */,
 			);
 			path = GoodNews;
+			sourceTree = "<group>";
+		};
+		FCB726CA2306622700054456 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FCB726CB2306626000054456 /* NewsListTableViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCB726CC2306626000054456 /* NewsListTableViewController.swift in Sources */,
 				FCB726B8230660EE00054456 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
